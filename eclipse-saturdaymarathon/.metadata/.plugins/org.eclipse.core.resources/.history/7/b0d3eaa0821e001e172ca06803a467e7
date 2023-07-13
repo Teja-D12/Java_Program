@@ -1,0 +1,12 @@
+package Journeycalculator;
+import java.util.*;
+public class Calculator {
+	public static void main(String[] args) {
+		
+	Scanner scan=new Scanner(System.in);
+	double speed=scan.nextDouble();
+	double time=scan.nextDouble();
+	Calculator1 jr=new Calculator1(;)
+	
+}
+	

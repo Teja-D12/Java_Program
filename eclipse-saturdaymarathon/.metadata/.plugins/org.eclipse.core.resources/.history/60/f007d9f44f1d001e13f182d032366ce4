@@ -1,0 +1,21 @@
+package Arithmaticoperator;
+
+public class ArithmaticOperatorr {
+	public static int subtractNumbers(int num1,int num2)
+	{
+		return num2-num1; 
+	}
+	public static int multiplicationNumbers(int num1,int num2)
+	{
+		return num1*num2; 
+	}
+	public static int divisionNumbers(int num1,int num2)
+	{
+		return num1/num2; 
+}
+	public static int remainderNumbers(int num1,int num2)
+	{
+		return num1%num2; 
+	}
+}
+	

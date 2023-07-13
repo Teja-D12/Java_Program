@@ -1,0 +1,43 @@
+package Arithmaticoperator;
+import java.util.*;
+public class ArithmaticOperator {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter 2 numbers");
+		int num1=scan.nextInt();
+		int num2=scan.nextInt();
+		int res1=sub(num1,num2);
+		System.out.println("Subtraction result is " + res1);
+
+		int res2=mul(num1,num2);
+		System.out.println("Multiplication result is " + res2);
+
+		double res3=div(num1,num2);
+		System.out.println("Division result is " + res3);
+
+		int res4=rem(num1,num2);
+		System.out.println("remainder result is " + res4);
+	}
+			
+			public static int sub(int num1,int num2) {
+			int res1=num2-num1;
+				return res1;
+			}
+				
+		public static int mul(int num1,int num2) {
+	int res2=num1*num2;
+					return res2;
+		}
+						
+	public static double div(double num1,double num2) {
+	double res3=(num1/num2);
+			return res3;
+						}
+								
+	public static int rem(int num1,int num2) {
+		int res4=(num1%num2);
+	return res4;
+									
+		}
+
+}
